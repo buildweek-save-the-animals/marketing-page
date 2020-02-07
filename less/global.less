@@ -55,3 +55,138 @@ h2 {
 .bottomDiv {
     background-color: #3e78d3;
 }
+
+
+// Brendans code
+
+kc1{
+	width:50%;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 25px;
+	background-color: white;
+	color:black;
+	padding:20px 15px;
+	transition: 0.4s;
+}
+nav a:hover{
+	background-color: aquamarine;
+}
+.navAimg{
+	display: flex;
+	justify-content: center;
+}
+#kc1{
+	max-width: 100%;
+	width: 20%;
+}
+
+/* ===== FIRST SECTION ===== */
+.picHeader{
+	height: 700px;
+	box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.45);
+	background-image: url("https://images.unsplash.com/photo-1470688090067-6d429c0b2600?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");
+  	background-color: #cccccc;
+  	background-position: center 35%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+/* ===== SECOND SECTION ===== */
+.sect1{
+	display: flex;
+	justify-content: center;
+}
+.s1div1{
+	padding:4%;
+	text-align: center;
+}
+.s1div1 h1{
+	font-size: 6rem;
+	padding:2%;
+}
+.s1div1 p{
+	font-size: 1.3rem;
+	border-top: 10px solid #D1E84F;
+	padding: 2%;
+	margin: 0% 25%;
+}
+
+/* ===== THIRD SECTION ===== */
+.sect2{
+	display: flex;
+	justify-content: center;
+}
+.s2div1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.col1, .col2{
+	display: flex;
+	justify-content: center;
+}
+.col1 div,.col2 div{
+	margin: 3% 5%;
+}
+.teamMember{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1%;
+}
+.teamMember h2{
+	text-align: center;
+	font-size: 2.3rem;
+	padding: 20px 0%;
+}
+.teamMember img{
+	height: 250px;
+	width: 250px;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 50%;
+}
+
+/* ===== FOOTER ===== */
+footer{
+	display: flex;
+	justify-content: center;
+	margin: 3%;
+	font-size: 1.4rem;
+}
+
+/* == MEDIA QUERIES == */
+@media (max-width: 700px){
+	/* = HEADER = */
+	nav{
+		flex-direction: column;
+		text-align: center;
+	}
+	/* = THIRD SECTION = */
+	#picTeamMember{
+		display: none;
+	}
+	/* = FOOTER = */
+}
+
+//fix for Brendan
+
+.links a {
+    background-color: transparent;
+}
+
+
+    .footer {
+        width: 100vw;
+        margin: 0 auto;
+        
+    }
+    
+    
+    html {
+        height: auto !important;
+    }
